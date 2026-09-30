@@ -2,17 +2,21 @@
 
 A first-person mystery in an abandoned coastal bathhouse. Read the keeper’s papers, restore water, voice, and light, and open the garden. There is no combat or timer.
 
-[Download Haze 0.3.0](https://github.com/gazhenko/haze/releases/tag/v0.3.0)
+[Download Haze 0.3.1](https://github.com/gazhenko/haze/releases/tag/v0.3.1)
 
 ## Trailer
 
-[![Haze trailer preview](images/trailer-preview.gif)](https://github.com/gazhenko/haze/releases/download/v0.3.0/Haze-v0.3.0-Trailer.mp4)
+[![Haze trailer preview](images/trailer-preview.gif)](https://github.com/gazhenko/haze/releases/download/v0.3.1/Haze-v0.3.1-Trailer.mp4)
 
-[Watch or download the full 42-second trailer](https://github.com/gazhenko/haze/releases/download/v0.3.0/Haze-v0.3.0-Trailer.mp4) · 1080p · sound on
+[Watch or download the full 42-second trailer](https://github.com/gazhenko/haze/releases/download/v0.3.1/Haze-v0.3.1-Trailer.mp4) · 1080p · sound on
 
 ## Environment update
 
-Window ironwork now sits in dressed stone coping over continuous masonry and foundations. Coastal banks have more photographed grasses, ferns, sorrel, moss, fallen leaves, and branch debris.
+Entrance ironwork now sits in a continuous stone threshold and reaches a fitted arch frame. The garden fanlight has a fixed transom anchored into the stone, so opening the doors leaves it supported.
+
+![The entrance grille seated in stone](images/entrance.png)
+
+Window ironwork sits in dressed coping over continuous masonry and foundations. Coastal banks have photographed grasses, ferns, sorrel, moss, fallen leaves, and branch debris.
 
 ![The bathhouse window bases and coast](images/windows.png)
 
@@ -22,9 +26,9 @@ Choose the archive for your computer under the GitHub release’s **Assets**. Ex
 
 | Computer | Download | Launch | Verification |
 | --- | --- | --- | --- |
-| Windows, Intel/AMD 64-bit | [Windows-x64.zip](https://github.com/gazhenko/haze/releases/download/v0.3.0/Haze-v0.3.0-Windows-x64.zip) | Open `Haze.exe` | Built successfully; runtime unverified |
-| Mac, Apple Silicon or Intel | [macOS-universal.zip](https://github.com/gazhenko/haze/releases/download/v0.3.0/Haze-v0.3.0-macOS-universal.zip) | Open `Haze.app` | Native walkthrough on Apple Silicon; Intel unverified |
-| Linux, Intel/AMD 64-bit | [Linux-x64.tar.gz](https://github.com/gazhenko/haze/releases/download/v0.3.0/Haze-v0.3.0-Linux-x64.tar.gz) | Run `./play.sh` | Native walkthrough on Omarchy with Vulkan |
+| Windows, Intel/AMD 64-bit | [Windows-x64.zip](https://github.com/gazhenko/haze/releases/download/v0.3.1/Haze-v0.3.1-Windows-x64.zip) | Open `Haze.exe` | Built successfully; runtime unverified |
+| Mac, Apple Silicon or Intel | [macOS-universal.zip](https://github.com/gazhenko/haze/releases/download/v0.3.1/Haze-v0.3.1-macOS-universal.zip) | Open `Haze.app` | Native walkthrough on Apple Silicon; Intel unverified |
+| Linux, Intel/AMD 64-bit | [Linux-x64.tar.gz](https://github.com/gazhenko/haze/releases/download/v0.3.1/Haze-v0.3.1-Linux-x64.tar.gz) | Run `./play.sh` | Native walkthrough on Omarchy with Vulkan |
 
 Use a keyboard and mouse. The Mac app uses Metal. Windows defaults to Direct3D 11. Linux defaults to Vulkan. These are desktop builds; ARM Windows/Linux and mobile devices are not included.
 
