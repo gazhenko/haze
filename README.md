@@ -2,7 +2,7 @@
 
 A first-person mystery in an abandoned coastal bathhouse. Read the keeper’s papers, restore water, voice, and light, and open the garden. There is no combat or timer.
 
-[Download Haze 0.3.2](https://github.com/gazhenko/haze/releases/tag/v0.3.2)
+[Download Haze 0.3.2](https://github.com/gazhenko/haze/releases/tag/v0.3.2) · [Install with your agent](#give-this-to-your-agent)
 
 ## Trailer
 
@@ -45,6 +45,32 @@ Choose the archive for your computer under the GitHub release’s **Assets**. Ex
 | Linux, Intel/AMD 64-bit | [Linux-x64.tar.gz](https://github.com/gazhenko/haze/releases/download/v0.3.2/Haze-v0.3.2-Linux-x64.tar.gz) | Run `./play.sh` | Native walkthrough on Omarchy with Vulkan |
 
 Use a keyboard and mouse. The Mac app uses Metal. Windows defaults to Direct3D 11. Linux defaults to Vulkan. These are desktop builds; ARM Windows/Linux and mobile devices are not included.
+
+### Give this to your agent
+
+To have a coding agent such as Claude Code, Codex, or Cursor install Haze, paste this into it:
+
+```text
+Install Haze 0.3.2 on this computer from its official GitHub release, then tell me how to start it.
+
+Release: https://github.com/gazhenko/haze/releases/tag/v0.3.2
+Download each file from https://github.com/gazhenko/haze/releases/download/v0.3.2/<file>
+  macOS, Apple Silicon or Intel  Haze-v0.3.2-macOS-universal.zip  extracts to Haze-macOS-universal/Haze.app
+  Windows 10/11, x64             Haze-v0.3.2-Windows-x64.zip      extracts to Haze-Windows-x64/Haze.exe
+  Linux, x64                     Haze-v0.3.2-Linux-x64.tar.gz     extracts to Haze-Linux-x64/play.sh
+  Checksums                      SHA256SUMS
+
+1. Detect the OS and CPU. If this computer is not one of the three platforms above (for example Windows or Linux on ARM), stop and tell me.
+2. Check there are at least 3 GB free. Download the matching archive (about 1.3 GB) and SHA256SUMS into a temporary folder with curl -L (curl.exe on Windows).
+3. Compute the archive's SHA-256 and compare it with its line in SHA256SUMS. If it does not match, delete the download and stop.
+4. Extract the whole archive (ditto -x -k on macOS, tar -xzf on Linux, Expand-Archive or tar -xf on Windows). The extracted folder has its own SHA256SUMS listing every file relative to that folder; check them all (shasum -a 256 -c SHA256SUMS on macOS, sha256sum -c SHA256SUMS on Linux, Get-FileHash on Windows). If any file fails, stop and tell me.
+5. Install it, replacing any earlier Haze install at the same location. Saves are stored in a separate folder, so they are kept.
+   - macOS: move Haze.app to ~/Applications/Haze.app. The app is ad-hoc signed and not notarized; if it carries a com.apple.quarantine attribute, remove it with xattr -dr com.apple.quarantine on the app.
+   - Windows: move the Haze-Windows-x64 folder to %LOCALAPPDATA%\Programs\Haze. Keep Haze.exe, Haze_Data and the libraries together. Add a Start menu shortcut named "Haze" that points at Haze.exe.
+   - Linux: move the Haze-Linux-x64 folder to ~/Games/Haze. If the executable bits were lost, run chmod +x play.sh Haze.x86_64. Add ~/.local/share/applications/haze.desktop with Exec set to that folder's play.sh, Path set to the folder, and Icon set to its icon.png. Haze needs Vulkan drivers.
+6. Delete the downloaded archive, SHA256SUMS, and anything left over from extraction.
+7. Do not change system-wide security settings (Gatekeeper, SmartScreen, antivirus), and do not run anything else from the archive. Do not launch the game unless I ask. Finish by telling me where it is installed, how to start it, and that it is played with a keyboard and mouse.
+```
 
 ### First launch on Mac
 
