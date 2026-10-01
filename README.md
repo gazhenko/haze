@@ -2,13 +2,27 @@
 
 A first-person mystery in an abandoned coastal bathhouse. Read the keeper’s papers, restore water, voice, and light, and open the garden. There is no combat or timer.
 
-[Download Haze 0.3.1](https://github.com/gazhenko/haze/releases/tag/v0.3.1)
+[Download Haze 0.3.2](https://github.com/gazhenko/haze/releases/tag/v0.3.2)
 
 ## Trailer
 
-[![Haze trailer preview](images/trailer-preview.gif)](https://github.com/gazhenko/haze/releases/download/v0.3.1/Haze-v0.3.1-Trailer.mp4)
+[![Haze trailer preview](images/trailer-preview.gif)](https://github.com/gazhenko/haze/releases/download/v0.3.2/Haze-v0.3.2-Trailer.mp4)
 
-[Watch or download the full 42-second trailer](https://github.com/gazhenko/haze/releases/download/v0.3.1/Haze-v0.3.1-Trailer.mp4) · 1080p · sound on
+[Watch or download the full 42-second trailer](https://github.com/gazhenko/haze/releases/download/v0.3.2/Haze-v0.3.2-Trailer.mp4) · 1080p · sound on
+
+## Lamps and keeper papers
+
+The small lights now have fluted opal glass, fitted brass seats, curved support arms, and slotted fasteners. Softer warm white light preserves the surface detail.
+
+![Fitted brass sconce with fluted opal glass](images/sconce.png)
+
+The keeper’s letters carry their full handwritten text on thin folded paper. Their envelopes have poured wax seals with recessed stamps, and the manifold discs have machined edges and raised keeper crests.
+
+![Keeper letter, envelope and wax seal](images/papers.png)
+
+![Poured wax seal with a recessed keeper stamp](images/wax-seal.png)
+
+![Worn brass disc with a raised keeper crest](images/brass-disc.png)
 
 ## Environment update
 
@@ -26,9 +40,9 @@ Choose the archive for your computer under the GitHub release’s **Assets**. Ex
 
 | Computer | Download | Launch | Verification |
 | --- | --- | --- | --- |
-| Windows, Intel/AMD 64-bit | [Windows-x64.zip](https://github.com/gazhenko/haze/releases/download/v0.3.1/Haze-v0.3.1-Windows-x64.zip) | Open `Haze.exe` | Built successfully; runtime unverified |
-| Mac, Apple Silicon or Intel | [macOS-universal.zip](https://github.com/gazhenko/haze/releases/download/v0.3.1/Haze-v0.3.1-macOS-universal.zip) | Open `Haze.app` | Native walkthrough on Apple Silicon; Intel unverified |
-| Linux, Intel/AMD 64-bit | [Linux-x64.tar.gz](https://github.com/gazhenko/haze/releases/download/v0.3.1/Haze-v0.3.1-Linux-x64.tar.gz) | Run `./play.sh` | Native walkthrough on Omarchy with Vulkan |
+| Windows, Intel/AMD 64-bit | [Windows-x64.zip](https://github.com/gazhenko/haze/releases/download/v0.3.2/Haze-v0.3.2-Windows-x64.zip) | Open `Haze.exe` | Built successfully; runtime unverified |
+| Mac, Apple Silicon or Intel | [macOS-universal.zip](https://github.com/gazhenko/haze/releases/download/v0.3.2/Haze-v0.3.2-macOS-universal.zip) | Open `Haze.app` | Native walkthrough on Apple Silicon; Intel unverified |
+| Linux, Intel/AMD 64-bit | [Linux-x64.tar.gz](https://github.com/gazhenko/haze/releases/download/v0.3.2/Haze-v0.3.2-Linux-x64.tar.gz) | Run `./play.sh` | Native walkthrough on Omarchy with Vulkan |
 
 Use a keyboard and mouse. The Mac app uses Metal. Windows defaults to Direct3D 11. Linux defaults to Vulkan. These are desktop builds; ARM Windows/Linux and mobile devices are not included.
 
@@ -82,4 +96,4 @@ Each extracted package also contains checksums for its contents. See [validation
 
 ## Credits
 
-Built with Unity and the Universal Render Pipeline. Photographed materials, the sky, and source botanical models come from Poly Haven under CC0. Source links and font licenses are in `Credits`. The architecture, story, mechanisms, interface, procedural environment additions, and synthesized bells were made for Haze.
+Built with Unity and the Universal Render Pipeline. Photographed materials, the sky, and source botanical models come from Poly Haven under CC0. Small prop materials also use CC0 assets from [ambientCG](https://ambientcg.com), with original aging, glass, wax, and token detail. The letter handwriting uses Caveat under the SIL Open Font License. Source links and font licenses are in `Credits`. The architecture, story, mechanisms, interface, procedural environment additions, and synthesized bells were made for Haze.

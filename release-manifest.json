@@ -1,13 +1,13 @@
 {
-  "version": "v0.3.1",
-  "scene_source_sha256": "a9eb483745efd88b433c19367e5179e701f85f513596b61461771ad5c657feb2",
+  "version": "v0.3.2",
+  "scene_source_sha256": "82622dd45c51e963d5619fb1cff397332e66062c9d02b677884c184c09189e82",
   "artifacts": [
     {
-      "file": "Haze-v0.3.1-macOS-universal.zip",
-      "bytes": 1220373882,
-      "sha256": "5b08f0cdd12264708e2f8c8708dc8a86b99841a6c519fc413aa07a02310cee0e",
+      "file": "Haze-v0.3.2-macOS-universal.zip",
+      "bytes": 1282644617,
+      "sha256": "d60fa3636546e545053dbf641ea064ebc969cfceea909c34a5095d6bd47b0833",
       "verification": "native-walkthrough-passed",
-      "player_sha256": "06ca75882bca16c48b955de42a6a8bb42e411e6156e97e96e7ae8c727c918b38",
+      "player_sha256": "23dbe7a6e1c8ed39e49c35aab3db9e4f0fd04122d9db19d9a21524072f8421bc",
       "native_verified_architectures": [
         "arm64"
       ],
@@ -19,9 +19,9 @@
       "notarized": false
     },
     {
-      "file": "Haze-v0.3.1-Windows-x64.zip",
-      "bytes": 1213289912,
-      "sha256": "72c99e34869f4c547767157637586a64f0d5c9bb0b7cd83929426230e5754f77",
+      "file": "Haze-v0.3.2-Windows-x64.zip",
+      "bytes": 1275824168,
+      "sha256": "fb4f16f6c15bd32102de9f2376929b25ba7d10c4142355e2b4523d6ebc050066",
       "verification": "runtime-unverified",
       "player_sha256": "398ec3f3c689e59d3c79254d0b8e852a59e945f4f1ce591c3339c2de02042519",
       "native_verified_architectures": [],
@@ -32,9 +32,9 @@
       "signature": "unsigned"
     },
     {
-      "file": "Haze-v0.3.1-Linux-x64.tar.gz",
-      "bytes": 1210411058,
-      "sha256": "a0a0eb130f8ac6fda9b0ec87b535d420415bc059b57d49a31a2da4c58ebd057a",
+      "file": "Haze-v0.3.2-Linux-x64.tar.gz",
+      "bytes": 1272968174,
+      "sha256": "04d2b039acbeffb2822aa5cb1a6b1e13ee780ff72eda33bec6d99e8882d72808",
       "verification": "native-walkthrough-passed",
       "player_sha256": "8027f7d1f9ae7dacfc826fb218adcc1ae7464af098a8a59397e7531c0f7ec0bc",
       "native_verified_architectures": [
@@ -45,9 +45,9 @@
     }
   ],
   "trailer": {
-    "file": "Haze-v0.3.1-Trailer.mp4",
-    "bytes": 84719776,
-    "sha256": "2723e65f26b68be8a5613c8540edf2c19925da5683aeb2f585ca3f7232a495ec",
+    "file": "Haze-v0.3.2-Trailer.mp4",
+    "bytes": 83184646,
+    "sha256": "c6abbafd43edf567edbe690a96365a3142eb25768fa749f22996d44bde65531c",
     "source": "Native Unity gameplay capture"
   }
 }
