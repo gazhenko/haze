@@ -1,24 +1,32 @@
 # Haze
 
-A first-person mystery in an abandoned coastal bathhouse. Read the keeper’s papers, restore water, voice, and light, and open the garden. There is no combat or timer.
+A first-person mystery in a bathhouse above the sea. Its keeper left his evening rounds unfinished, and the house has kept that rainy evening ever since. Read his letters, finish the rounds, and let the evening end. There is no combat or timer.
 
-[Download Haze 0.3.2](https://github.com/gazhenko/haze/releases/tag/v0.3.2) · [Install with your agent](#give-this-to-your-agent)
+[Download Haze 0.4.0](https://github.com/gazhenko/haze/releases/tag/v0.4.0) · [Install with your agent](#give-this-to-your-agent)
 
 ## Trailer
 
-[![Haze trailer preview](images/trailer-preview.gif)](https://github.com/gazhenko/haze/releases/download/v0.3.2/Haze-v0.3.2-Trailer.mp4)
+[![Haze trailer preview](images/trailer-preview.gif)](https://github.com/gazhenko/haze/releases/download/v0.4.0/Haze-v0.4.0-Trailer.mp4)
 
-[Watch or download the full 42-second trailer](https://github.com/gazhenko/haze/releases/download/v0.3.2/Haze-v0.3.2-Trailer.mp4) · 1080p · sound on
+[Watch or download the full 42-second trailer](https://github.com/gazhenko/haze/releases/download/v0.4.0/Haze-v0.4.0-Trailer.mp4) · 1080p · sound on
+
+## Story, sound and music
+
+Haze 0.4.0 gives the house one story. The keeper’s letters, the gardener’s slate, the drowned score, the seal, the journal and the ending now agree about what happened on the evening the house still keeps, and why finishing the keeper’s rounds lets it end.
+
+![The keeper’s letter, in the same hand as the paper on his desk](images/letter.png)
+
+An original score for piano, harp and strings answers each finished round and steps back whenever the bells must be heard. Rain falls on the vault until the light comes home; the sea, wind, water and the brass and stone mechanisms are heard where they are. The interface is quieter: no permanent labels, act titles that appear once, pages in paper, chalk and bronze, and separate volume and music settings.
+
+![The tree Mara planted, on the morning after the rain](images/morning.png)
 
 ## Lamps and keeper papers
 
-The small lights now have fluted opal glass, fitted brass seats, curved support arms, and slotted fasteners. Softer warm white light preserves the surface detail.
+Haze 0.3.2 fitted the small lights with fluted opal glass, brass seats, curved support arms and slotted fasteners. The keeper’s letters carry their full handwritten text on thin folded paper, sealed with poured wax; in 0.4.0 the paper prints the new letters word for word.
 
 ![Fitted brass sconce with fluted opal glass](images/sconce.png)
 
-The keeper’s letters carry their full handwritten text on thin folded paper. Their envelopes have poured wax seals with recessed stamps, and the manifold discs have machined edges and raised keeper crests.
-
-![Keeper letter, envelope and wax seal](images/papers.png)
+![The keeper’s letter on his desk, beside the sealed envelope and lantern](images/papers.png)
 
 ![Poured wax seal with a recessed keeper stamp](images/wax-seal.png)
 
@@ -40,9 +48,9 @@ Choose the archive for your computer under the GitHub release’s **Assets**. Ex
 
 | Computer | Download | Launch | Verification |
 | --- | --- | --- | --- |
-| Windows, Intel/AMD 64-bit | [Windows-x64.zip](https://github.com/gazhenko/haze/releases/download/v0.3.2/Haze-v0.3.2-Windows-x64.zip) | Open `Haze.exe` | Built successfully; runtime unverified |
-| Mac, Apple Silicon or Intel | [macOS-universal.zip](https://github.com/gazhenko/haze/releases/download/v0.3.2/Haze-v0.3.2-macOS-universal.zip) | Open `Haze.app` | Native walkthrough on Apple Silicon; Intel unverified |
-| Linux, Intel/AMD 64-bit | [Linux-x64.tar.gz](https://github.com/gazhenko/haze/releases/download/v0.3.2/Haze-v0.3.2-Linux-x64.tar.gz) | Run `./play.sh` | Native walkthrough on Omarchy with Vulkan |
+| Windows, Intel/AMD 64-bit | [Windows-x64.zip](https://github.com/gazhenko/haze/releases/download/v0.4.0/Haze-v0.4.0-Windows-x64.zip) | Open `Haze.exe` | Built successfully; runtime unverified |
+| Mac, Apple Silicon or Intel | [macOS-universal.zip](https://github.com/gazhenko/haze/releases/download/v0.4.0/Haze-v0.4.0-macOS-universal.zip) | Open `Haze.app` | Native walkthrough on Apple Silicon; Intel unverified |
+| Linux, Intel/AMD 64-bit | [Linux-x64.tar.gz](https://github.com/gazhenko/haze/releases/download/v0.4.0/Haze-v0.4.0-Linux-x64.tar.gz) | Run `./play.sh` | Native walkthrough on Omarchy with Vulkan |
 
 Use a keyboard and mouse. The Mac app uses Metal. Windows defaults to Direct3D 11. Linux defaults to Vulkan. These are desktop builds; ARM Windows/Linux and mobile devices are not included.
 
@@ -51,13 +59,13 @@ Use a keyboard and mouse. The Mac app uses Metal. Windows defaults to Direct3D 1
 To have a coding agent such as Claude Code, Codex, or Cursor install Haze, paste this into it:
 
 ```text
-Install Haze 0.3.2 on this computer from its official GitHub release, then tell me how to start it.
+Install Haze 0.4.0 on this computer from its official GitHub release, then tell me how to start it.
 
-Release: https://github.com/gazhenko/haze/releases/tag/v0.3.2
-Download each file from https://github.com/gazhenko/haze/releases/download/v0.3.2/<file>
-  macOS, Apple Silicon or Intel  Haze-v0.3.2-macOS-universal.zip  extracts to Haze-macOS-universal/Haze.app
-  Windows 10/11, x64             Haze-v0.3.2-Windows-x64.zip      extracts to Haze-Windows-x64/Haze.exe
-  Linux, x64                     Haze-v0.3.2-Linux-x64.tar.gz     extracts to Haze-Linux-x64/play.sh
+Release: https://github.com/gazhenko/haze/releases/tag/v0.4.0
+Download each file from https://github.com/gazhenko/haze/releases/download/v0.4.0/<file>
+  macOS, Apple Silicon or Intel  Haze-v0.4.0-macOS-universal.zip  extracts to Haze-macOS-universal/Haze.app
+  Windows 10/11, x64             Haze-v0.4.0-Windows-x64.zip      extracts to Haze-Windows-x64/Haze.exe
+  Linux, x64                     Haze-v0.4.0-Linux-x64.tar.gz     extracts to Haze-Linux-x64/play.sh
   Checksums                      SHA256SUMS
 
 1. Detect the OS and CPU. If this computer is not one of the three platforms above (for example Windows or Linux on ARM), stop and tell me.
@@ -94,8 +102,8 @@ Extract with your archive manager or `tar -xzf Haze-*-Linux-x64.tar.gz`. Open th
 | E or left click | Read, ring, or turn |
 | Q | Turn a valve or mirror backwards |
 | Shift | Walk faster |
-| J or Tab | Journal and optional hints |
-| Escape | Settings, save and quit, or return to a clear path |
+| J or Tab | Journal: the rounds, the pages you have read, and optional hints |
+| Escape | Pause: volume, music, mute, look sensitivity, developer guide, save and quit, or return to a clear path |
 | F12 | Save a photograph |
 
 For a guided visit, press **Escape → Developer guide: ON**. It gives directions and exact puzzle inputs. It is off by default.
@@ -105,10 +113,10 @@ For a guided visit, press **Escape → Developer guide: ON**. It gives direction
 Progress saves automatically. Replacing the extracted game folder preserves your visit. Saves live separately under the original internal name:
 
 - Windows: `%USERPROFILE%\AppData\LocalLow\Light Studies\The House That Remembers`
-- Mac: `~/Library/Application Support/Light Studies/The House That Remembers`
+- Mac: `~/Library/Application Support/The House That Remembers` (a visit from before the Haze name, in `~/Library/Application Support/com.lightstudies.afterrain.house`, is found automatically and left unchanged)
 - Linux: `~/.config/unity3d/Light Studies/The House That Remembers`
 
-`remembered-house.json` contains progress; `.bak` is the previous save; `settings.json` contains preferences. Photographs are in `Captures`.
+`remembered-house.json` contains progress; `.bak` is the previous save; `settings.json` contains preferences, including volume and music. Photographs are in `Captures`.
 
 ## Verify a download
 
@@ -122,4 +130,6 @@ Each extracted package also contains checksums for its contents. See [validation
 
 ## Credits
 
-Built with Unity and the Universal Render Pipeline. Photographed materials, the sky, and source botanical models come from Poly Haven under CC0. Small prop materials also use CC0 assets from [ambientCG](https://ambientcg.com), with original aging, glass, wax, and token detail. The letter handwriting uses Caveat under the SIL Open Font License. Source links and font licenses are in `Credits`. The architecture, story, mechanisms, interface, procedural environment additions, and synthesized bells were made for Haze.
+Built with Unity and the Universal Render Pipeline. Photographed materials, the sky, and source botanical models come from Poly Haven under CC0. Small prop materials also use CC0 assets from [ambientCG](https://ambientcg.com), with original aging, glass, wax, and token detail. The letter handwriting uses Caveat under the SIL Open Font License.
+
+The score, the four tuned bells, rain, sea, wind, water and the stone and brass mechanisms were synthesized for Haze. Footsteps, small metal clicks and paper are adapted from Kenney’s CC0 [Impact Sounds](https://kenney.nl/assets/impact-sounds) and [RPG Audio](https://kenney.nl/assets/rpg-audio). Every sound’s origin and licence is listed in `Credits/audio-sources.json`; source links, font licences and the Kenney licence texts are in `Credits`. The architecture, story, mechanisms, interface, procedural environment additions and music were made for Haze.
