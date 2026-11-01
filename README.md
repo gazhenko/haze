@@ -1,10 +1,22 @@
 # Haze
 
-A first-person mystery in a bathhouse above the sea. Its keeper left his evening rounds unfinished, and the house has kept that rainy evening ever since. Read his letters, finish the rounds, and let the evening end. There is no combat or timer.
+A first-person mystery on an island lost in the haze since 1956. You row in with a bundle of returned letters for Elias Vale, keeper of the Morrow Baths. The island has kept one rainy evening for forty-five years, and something beneath it has been keeping it for him. Walk the island region by region, finish the rounds Elias could never finish, and let each evening end. There is no combat, timer or fail state.
 
-[Download Haze 0.4.0](https://github.com/gazhenko/haze/releases/tag/v0.4.0) · [Install with your agent](#give-this-to-your-agent)
+[Download Haze 0.9.0](https://github.com/gazhenko/haze/releases/tag/v0.9.0) · [Easy installers](#easy-installers) · [Install with your agent](#give-this-to-your-agent)
 
-## Trailer
+## The island
+
+Haze 0.9.0 is the whole game. The bathhouse is Act I; beyond its north gate lie the Village, the Springs, the West Cliffs, the Cure, the Summit and the Light, and under the northern sea, the thing the islanders called the Guest. Each region begins in rain at dusk and turns to morning when its round is done. From the Springs on, figures of light replay the last evening, voiced and subtitled. There are two endings, one of them hidden. We estimate a first visit at six to nine hours with reading.
+
+![The causeway of bells to the lighthouse islet](images/causeway.jpg)
+
+![On the drained floor of the northern sea](images/the-guest.jpg)
+
+![Morning, and everyone the island remembered](images/it-rises.jpg)
+
+The journal keeps the rounds of every region, a map of the island, every page read and three escalating hints per puzzle. Game controllers (Xbox, PlayStation, Switch Pro) work beside keyboard and mouse. Saved bathhouse visits continue where they were.
+
+## Trailer (the bathhouse, 0.4.0)
 
 [![Haze trailer preview](images/trailer-preview.gif)](https://github.com/gazhenko/haze/releases/download/v0.4.0/Haze-v0.4.0-Trailer.mp4)
 
@@ -42,30 +54,45 @@ Window ironwork sits in dressed coping over continuous masonry and foundations. 
 
 ![The bathhouse window bases and coast](images/windows.png)
 
+## Easy installers
+
+You do not need a coding agent, Unity, or a terminal. The installers include the whole game and work offline.
+
+| Computer | Installer filename | How to install |
+| --- | --- | --- |
+| Mac, Apple Silicon or Intel | [Download Mac installer](https://github.com/gazhenko/haze/releases/download/v0.9.0/Haze-v0.9.0-macOS-universal.dmg) | Open the disk image, drag **Haze** onto **Applications**, then open Haze from Applications. |
+| Windows 10/11, Intel/AMD 64-bit | [Download Windows installer](https://github.com/gazhenko/haze/releases/download/v0.9.0/Haze-v0.9.0-Windows-x64-Setup.exe) | Open Setup, choose **Next → Install → Finish**, then use the desktop or Start menu shortcut. No administrator password is needed. |
+
+Each installer includes a **START HERE** guide. You can also [read the guide](https://github.com/gazhenko/haze/releases/download/v0.9.0/START-HERE.txt) before downloading. Portable archives and Linux downloads are available on the release page.
+
+Quit the game before updating. Updates and removal keep your saved progress. On Windows, remove the game in **Settings → Apps**; on Mac, move Haze from Applications to the Trash.
+
+The Mac app is ad-hoc signed and has not been notarized by Apple. If blocked, try opening it from Applications, then use **System Settings → Privacy & Security → Open Anyway** for Haze ([Apple's guide](https://support.apple.com/102445)). The Windows installer is unsigned; an unfamiliar-app prompt may offer **More info → Run anyway**. Approve only the copy from the official release. The Windows installer has been packaged and its contents checked, but has not been run on a Windows PC.
+
 ## Download and play
 
 Choose the archive for your computer under the GitHub release’s **Assets**. Extract the whole archive before launching. Keep the executable, data folder, and libraries together.
 
 | Computer | Download | Launch | Verification |
 | --- | --- | --- | --- |
-| Windows, Intel/AMD 64-bit | [Windows-x64.zip](https://github.com/gazhenko/haze/releases/download/v0.4.0/Haze-v0.4.0-Windows-x64.zip) | Open `Haze.exe` | Built successfully; runtime unverified |
-| Mac, Apple Silicon or Intel | [macOS-universal.zip](https://github.com/gazhenko/haze/releases/download/v0.4.0/Haze-v0.4.0-macOS-universal.zip) | Open `Haze.app` | Native walkthrough on Apple Silicon; Intel unverified |
-| Linux, Intel/AMD 64-bit | [Linux-x64.tar.gz](https://github.com/gazhenko/haze/releases/download/v0.4.0/Haze-v0.4.0-Linux-x64.tar.gz) | Run `./play.sh` | Native walkthrough on Omarchy with Vulkan |
+| Windows, Intel/AMD 64-bit | [Windows-x64.zip](https://github.com/gazhenko/haze/releases/download/v0.9.0/Haze-v0.9.0-Windows-x64.zip) | Open `Haze.exe` | Built successfully; runtime unverified |
+| Mac, Apple Silicon or Intel | [macOS-universal.zip](https://github.com/gazhenko/haze/releases/download/v0.9.0/Haze-v0.9.0-macOS-universal.zip) | Open `Haze.app` | Native walkthrough on Apple Silicon; Intel unverified |
+| Linux, Intel/AMD 64-bit | [Linux-x64.tar.gz](https://github.com/gazhenko/haze/releases/download/v0.9.0/Haze-v0.9.0-Linux-x64.tar.gz) | Run `./play.sh` | Native walkthrough on Omarchy with Vulkan |
 
-Use a keyboard and mouse. The Mac app uses Metal. Windows defaults to Direct3D 11. Linux defaults to Vulkan. These are desktop builds; ARM Windows/Linux and mobile devices are not included.
+Use a keyboard and mouse, or a game controller (Xbox, PlayStation or Switch Pro). The Mac app uses Metal. Windows defaults to Direct3D 11. Linux defaults to Vulkan. These are desktop builds; ARM Windows/Linux and mobile devices are not included.
 
 ### Give this to your agent
 
 To have a coding agent such as Claude Code, Codex, or Cursor install Haze, paste this into it:
 
 ```text
-Install Haze 0.4.0 on this computer from its official GitHub release, then tell me how to start it.
+Install Haze 0.9.0 on this computer from its official GitHub release, then tell me how to start it.
 
-Release: https://github.com/gazhenko/haze/releases/tag/v0.4.0
-Download each file from https://github.com/gazhenko/haze/releases/download/v0.4.0/<file>
-  macOS, Apple Silicon or Intel  Haze-v0.4.0-macOS-universal.zip  extracts to Haze-macOS-universal/Haze.app
-  Windows 10/11, x64             Haze-v0.4.0-Windows-x64.zip      extracts to Haze-Windows-x64/Haze.exe
-  Linux, x64                     Haze-v0.4.0-Linux-x64.tar.gz     extracts to Haze-Linux-x64/play.sh
+Release: https://github.com/gazhenko/haze/releases/tag/v0.9.0
+Download each file from https://github.com/gazhenko/haze/releases/download/v0.9.0/<file>
+  macOS, Apple Silicon or Intel  Haze-v0.9.0-macOS-universal.zip  extracts to Haze-macOS-universal/Haze.app
+  Windows 10/11, x64             Haze-v0.9.0-Windows-x64.zip      extracts to Haze-Windows-x64/Haze.exe
+  Linux, x64                     Haze-v0.9.0-Linux-x64.tar.gz     extracts to Haze-Linux-x64/play.sh
   Checksums                      SHA256SUMS
 
 1. Detect the OS and CPU. If this computer is not one of the three platforms above (for example Windows or Linux on ARM), stop and tell me.
@@ -77,7 +104,7 @@ Download each file from https://github.com/gazhenko/haze/releases/download/v0.4.
    - Windows: move the Haze-Windows-x64 folder to %LOCALAPPDATA%\Programs\Haze. Keep Haze.exe, Haze_Data and the libraries together. Add a Start menu shortcut named "Haze" that points at Haze.exe.
    - Linux: move the Haze-Linux-x64 folder to ~/Games/Haze. If the executable bits were lost, run chmod +x play.sh Haze.x86_64. Add ~/.local/share/applications/haze.desktop with Exec set to that folder's play.sh, Path set to the folder, and Icon set to its icon.png. Haze needs Vulkan drivers.
 6. Delete the downloaded archive, SHA256SUMS, and anything left over from extraction.
-7. Do not change system-wide security settings (Gatekeeper, SmartScreen, antivirus), and do not run anything else from the archive. Do not launch the game unless I ask. Finish by telling me where it is installed, how to start it, and that it is played with a keyboard and mouse.
+7. Do not change system-wide security settings (Gatekeeper, SmartScreen, antivirus), and do not run anything else from the archive. Do not launch the game unless I ask. Finish by telling me where it is installed, how to start it, and that it is played with a keyboard and mouse or a game controller.
 ```
 
 ### First launch on Mac
@@ -102,7 +129,7 @@ Extract with your archive manager or `tar -xzf Haze-*-Linux-x64.tar.gz`. Open th
 | E or left click | Read, ring, or turn |
 | Q | Turn a valve or mirror backwards |
 | Shift | Walk faster |
-| J or Tab | Journal: the rounds, the pages you have read, and optional hints |
+| J or Tab | Journal: the rounds of every region, a map, the pages you have read, and optional hints |
 | Escape | Pause: volume, music, mute, look sensitivity, developer guide, save and quit, or return to a clear path |
 | F12 | Save a photograph |
 
@@ -110,7 +137,7 @@ For a guided visit, press **Escape → Developer guide: ON**. It gives direction
 
 ## Saves and updates
 
-Progress saves automatically. Replacing the extracted game folder preserves your visit. Saves live separately under the original internal name:
+Progress saves automatically, including the region you are in. Replacing the extracted game folder preserves your visit. Saves live separately under the original internal name:
 
 - Windows: `%USERPROFILE%\AppData\LocalLow\Light Studies\The House That Remembers`
 - Mac: `~/Library/Application Support/The House That Remembers` (a visit from before the Haze name, in `~/Library/Application Support/com.lightstudies.afterrain.house`, is found automatically and left unchanged)
@@ -132,4 +159,4 @@ Each extracted package also contains checksums for its contents. See [validation
 
 Built with Unity and the Universal Render Pipeline. Photographed materials, the sky, and source botanical models come from Poly Haven under CC0. Small prop materials also use CC0 assets from [ambientCG](https://ambientcg.com), with original aging, glass, wax, and token detail. The letter handwriting uses Caveat under the SIL Open Font License.
 
-The score, the four tuned bells, rain, sea, wind, water and the stone and brass mechanisms were synthesized for Haze. Footsteps, small metal clicks and paper are adapted from Kenney’s CC0 [Impact Sounds](https://kenney.nl/assets/impact-sounds) and [RPG Audio](https://kenney.nl/assets/rpg-audio). Every sound’s origin and licence is listed in `Credits/audio-sources.json`; source links, font licences and the Kenney licence texts are in `Credits`. The architecture, story, mechanisms, interface, procedural environment additions and music were made for Haze.
+The score, the bells, the Guest's song, the orchestrion waltz, the credits theme, rain, sea, wind, water and the stone and brass mechanisms were synthesized for Haze. The island's voices were synthesized with Kokoro (hexgrad/Kokoro-82M, Apache-2.0). Footsteps, small metal clicks and paper are adapted from Kenney’s CC0 [Impact Sounds](https://kenney.nl/assets/impact-sounds) and [RPG Audio](https://kenney.nl/assets/rpg-audio). Every sound’s origin and licence is listed in `Credits/audio-sources.json`; source links, font licences and the Kenney licence texts are in `Credits`. The architecture, story, mechanisms, interface, procedural environment additions and music were made for Haze.

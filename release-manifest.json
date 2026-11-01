@@ -1,13 +1,13 @@
 {
-  "version": "v0.4.0",
-  "scene_source_sha256": "cb0109bca56f60a786b15e457e92552fdc5b52938a2c4b25aecfa2e4596359bf",
+  "version": "v0.9.0",
+  "scene_source_sha256": "14deb4b3dcc4995699fcfa4f542a167a427878b0085800f55c24d17ef3201558",
   "artifacts": [
     {
-      "file": "Haze-v0.4.0-macOS-universal.zip",
-      "bytes": 1308876820,
-      "sha256": "c8a259d35456ea47db38ed1ca721169c5c33ae9500adce59f7f7fd12feea5734",
+      "file": "Haze-v0.9.0-macOS-universal.zip",
+      "bytes": 1350703148,
+      "sha256": "1ddb304b7cf2871bffaf9be777323b5869fb2ce185ea7334f550b99be0ed7a66",
       "verification": "native-walkthrough-passed",
-      "player_sha256": "70d659b3b424a81ac943c9ac7e42e88321defa083617c23d78929678803cf7ea",
+      "player_sha256": "b4df1ef4981e475de3de606c3bdce1577b3fdfa6d81d6e3f63f41fc4da5491b8",
       "native_verified_architectures": [
         "arm64"
       ],
@@ -19,11 +19,11 @@
       "notarized": false
     },
     {
-      "file": "Haze-v0.4.0-Windows-x64.zip",
-      "bytes": 1302038238,
-      "sha256": "f2739195c75db85e8a9a114fd1a777db8324b24100f7c64bc50219e882ff03d9",
+      "file": "Haze-v0.9.0-Windows-x64.zip",
+      "bytes": 1343788538,
+      "sha256": "8453777317aab9a4d55848b2e994644d6ec9429a24465f2875ab663437364ab1",
       "verification": "runtime-unverified",
-      "player_sha256": "398ec3f3c689e59d3c79254d0b8e852a59e945f4f1ce591c3339c2de02042519",
+      "player_sha256": "4c9dd8b513f3d5cbb03500871ee3c18e9e9bc497c23df7956242b40bf0efe2d9",
       "native_verified_architectures": [],
       "unverified_architectures": [
         "x86_64"
@@ -32,9 +32,9 @@
       "signature": "unsigned"
     },
     {
-      "file": "Haze-v0.4.0-Linux-x64.tar.gz",
-      "bytes": 1299155347,
-      "sha256": "1a90a9b06136b4f42e3362a54c17b9abe1cb97326b916d7b3d840001395054ec",
+      "file": "Haze-v0.9.0-Linux-x64.tar.gz",
+      "bytes": 1341033576,
+      "sha256": "7625c8ca5314b2e65c511eaa1dbd3c816d96a0c2cadbaf8a4b7210caae472bbb",
       "verification": "native-walkthrough-passed",
       "player_sha256": "8027f7d1f9ae7dacfc826fb218adcc1ae7464af098a8a59397e7531c0f7ec0bc",
       "native_verified_architectures": [
@@ -43,11 +43,5 @@
       "unverified_architectures": [],
       "graphics_api": "Vulkan"
     }
-  ],
-  "trailer": {
-    "file": "Haze-v0.4.0-Trailer.mp4",
-    "bytes": 83758659,
-    "sha256": "6453d6c267e496d653a728d2ca6b4c4a2d9c409e4af16332850f05a3415be9d7",
-    "source": "Native Unity gameplay capture"
-  }
+  ]
 }

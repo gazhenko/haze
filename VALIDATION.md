@@ -1,4 +1,24 @@
-# Haze 0.4.0 validation
+# Haze 0.9.0 validation
+
+| Platform | Tested configuration | Result |
+| --- | --- | --- |
+| macOS, universal build | Apple M1 Pro, Metal, 1600 × 1000 | Whole-island walkthrough: 920 checks passed; zero failures or runtime errors (mean frame 16.9 ms) |
+| macOS bathhouse suite | Apple M1 Pro, Metal, 1600 × 1000 | 738 checks passed; zero failures or runtime errors |
+| Linux | Omarchy, NVIDIA RTX 3080, Vulkan, 1600 × 1000 | Whole-island walkthrough: 920 checks passed; zero failures or runtime errors (mean frame 16.7 ms) |
+| Linux bathhouse suite | Omarchy, NVIDIA RTX 3080, Vulkan, 1600 × 1000 | 746 checks passed; zero failures or runtime errors |
+| Installers | DMG and Setup.exe payloads compared with every file in their archives | 177 Mac and 175 Windows game files verified |
+| Windows x64 | Cross-built for Direct3D 11 and Vulkan | Runtime unverified; no Windows test machine was available |
+| Intel Mac | Included in the universal app | Runtime unverified |
+
+## The island walkthrough
+
+A native walkthrough drives a real first-person character controller through the whole game in story order, starting in the rowing boat: every road between the ten regions; every puzzle, including at least one deliberate wrong answer for each; every page and echo; the finale; the hidden ending, after which the bell remains; the ending; the epilogue; and the return to Morrow in the morning. Each region must load, place the visitor on solid ground, be finished by its own round, and hand over to the next region through its road. A screenshot and position are recorded for any failure.
+
+## The bathhouse suite
+
+The 0.4 suite still runs in full against the bathhouse, which is now Act I: puzzles, letters, sound, the developer guide, collision and recovery, inscriptions and reflections. It now also checks the new journal (rounds, island, pages, hints) and counts only the house's own 28 inscriptions, separately from the island's lettering at the north gate.
+
+# Haze 0.4.0 validation (earlier release)
 
 | Platform | Tested configuration | Result |
 | --- | --- | --- |
