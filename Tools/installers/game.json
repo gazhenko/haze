@@ -1,0 +1,12 @@
+{
+  "name": "Haze",
+  "repo": "haze",
+  "id": "Haze",
+  "prefix": "Haze",
+  "version": "v0.4.0",
+  "app": "Haze.app",
+  "exe": "Haze.exe",
+  "mac_root": "Haze-macOS-universal",
+  "windows_root": "Haze-Windows-x64",
+  "checksums": "SHA256SUMS"
+}
