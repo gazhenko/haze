@@ -1,4 +1,18 @@
-# Haze 0.9.0 validation
+# Haze 0.10.0 validation
+
+| Platform | Tested configuration | Result |
+| --- | --- | --- |
+| macOS (universal build) | Apple M1 Pro, Metal, 1600 × 1000 | Whole-island walkthrough: 920 checks, 0 failures, 0 runtime errors (mean frame 17.4 ms). Bathhouse suite: 738 checks, 0 failures |
+| Linux | Omarchy, NVIDIA RTX 3080, Vulkan, 1600 × 1000 | Whole-island walkthrough: 920 checks, 0 failures, 0 runtime errors, 60 fps. Bathhouse suite, including simulated Steam virtual pads and Steam Deck controllers: 752 checks, 0 failures |
+| Graphics presets | Apple M1 Pro, Metal, 1600 × 1000 | Every preset applied and checked, 0 failures. Frame time: Steam Deck 3.7 ms, Low 2.2 ms, Medium 4.4 ms, High 8.7 ms, Ultra 10.4 ms, Cinematic 17.9 ms |
+| Installers | DMG and Setup.exe built from the checksum-verified archives | Payloads compared file by file with their archives: 166 Mac and 175 Windows game files |
+| Steam Deck | Linux build, Steam Deck preset | Controls verified with simulated Deck controllers on Linux; not yet run on Deck hardware |
+| Windows x64 | Cross-built, Direct3D 11 with Vulkan fallback | Runtime unverified |
+| Intel Mac | Included in the universal app | Runtime unverified |
+
+The graphics verifier applies every preset, checks that the renderer really changed (render scale, anti-aliasing, shadows, AO, reflections, water, terrain, atmosphere, vegetation), photographs the same view and times it. The Linux bathhouse suite includes simulated Steam virtual pads and the Steam Deck's own controller. No physical Steam Deck or Windows PC was available.
+
+# Haze 0.9.0 validation (earlier release)
 
 | Platform | Tested configuration | Result |
 | --- | --- | --- |
