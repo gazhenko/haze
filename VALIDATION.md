@@ -1,4 +1,18 @@
-# Haze 0.10.0 validation
+# Haze 0.11.0 validation
+
+| Platform | Tested configuration | Result |
+| --- | --- | --- |
+| macOS (universal build) | Apple M1 Pro, Metal, 1600 × 1000 | Whole-island walkthrough: 920 checks, 0 failures, 0 runtime errors (mean frame 17.5 ms). Bathhouse suite: 738 checks, 0 failures |
+| Linux | Omarchy, NVIDIA RTX 3080, Vulkan, 1600 × 1000 | Whole-island walkthrough: 920 checks, 0 failures, 0 runtime errors, 60 fps. Bathhouse suite, including simulated Steam virtual pads and Steam Deck controllers: 752 checks, 0 failures |
+| Steam Deck (hardware) | Steam Deck OLED, SteamOS 3.8, Vulkan (RADV VANGOGH), 1280 × 800, Steam Deck preset | Controls and bathhouse suite: 0 failures; the Deck's Steam Input controller is detected and bridged. Crossing, Cure, Vessel (26 people) and Village walkthroughs: 0 failures, holding the display's 60 Hz. Steam Deck preset: 9.5 ms mean, 12.7 ms P95 |
+| Graphics presets | Apple M1 Pro, Metal, 1600 × 1000 | Every preset applied and checked, 0 failures |
+| Installers | DMG and Setup.exe built from the checksum-verified archives | Payloads compared file by file with their archives: 166 Mac and 173 Windows game files |
+| Windows x64 | Cross-built, Direct3D 11 with Vulkan fallback | Runtime unverified |
+| Intel Mac | Included in the universal app | Runtime unverified |
+
+The Steam Deck checks ran on the hardware itself: the game's own verification modes, launched over SSH in Desktop Mode, with the Deck's controller attached. No Windows PC or Intel Mac was available.
+
+# Haze 0.10.0 validation (earlier release)
 
 | Platform | Tested configuration | Result |
 | --- | --- | --- |
