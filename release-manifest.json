@@ -1,13 +1,13 @@
 {
-  "version": "v0.13.0",
+  "version": "v0.14.0",
   "scene_source_sha256": "14deb4b3dcc4995699fcfa4f542a167a427878b0085800f55c24d17ef3201558",
   "artifacts": [
     {
-      "file": "Haze-v0.13.0-macOS-universal.zip",
-      "bytes": 1584114855,
-      "sha256": "78a3ed570c98bb3b91fc261bf1f04c52689f031da6d712244e8041be42861055",
+      "file": "Haze-v0.14.0-macOS-universal.zip",
+      "bytes": 1602664091,
+      "sha256": "0d0b203fa4c7a5cb8740d219d193881a686da8bdd0b1c16fd7bdda3709bd63cc",
       "verification": "native-walkthrough-passed",
-      "player_sha256": "09a4599452108c1461a2e627908fc6e1bf95b9ee6ec7295af348755b63cc207c",
+      "player_sha256": "b6d7f68a5355876c5af85a1c223d3af492428b7aa6290eed983ef8777283d7a4",
       "native_verified_architectures": [
         "arm64"
       ],
@@ -19,9 +19,9 @@
       "notarized": false
     },
     {
-      "file": "Haze-v0.13.0-Windows-x64.zip",
-      "bytes": 1552346246,
-      "sha256": "f7095df431fe685cb2671b590efeb04c3087d1fd06232afff961e5a88ab39813",
+      "file": "Haze-v0.14.0-Windows-x64.zip",
+      "bytes": 1570945190,
+      "sha256": "302b31ab52cdef4a1ca0f218ba5ef6ec536282a60db4f917b7dfef268933738e",
       "verification": "runtime-unverified",
       "player_sha256": "4c9dd8b513f3d5cbb03500871ee3c18e9e9bc497c23df7956242b40bf0efe2d9",
       "native_verified_architectures": [],
@@ -29,12 +29,20 @@
         "x86_64"
       ],
       "graphics_api": "Direct3D 11, with Vulkan fallback",
-      "signature": "unsigned"
+      "signature": "unsigned",
+      "proton_verification": {
+        "result": "passed",
+        "reports": [
+          "windows-proton-bath-playtest.txt",
+          "windows-proton-crossing-playtest.txt"
+        ],
+        "note": "The Windows player run through Proton on Linux; not a Windows PC"
+      }
     },
     {
-      "file": "Haze-v0.13.0-Linux-x64.tar.gz",
-      "bytes": 1550739117,
-      "sha256": "a7fcc3912d31293cb713ac58069450dc54846bb98473e625ed1425e15cd4f78d",
+      "file": "Haze-v0.14.0-Linux-x64.tar.gz",
+      "bytes": 1569502764,
+      "sha256": "7023c0cc302d0d1ce4a6c73b585da72d218de6f2888b6089caf23101c5175848",
       "verification": "native-walkthrough-passed",
       "player_sha256": "8027f7d1f9ae7dacfc826fb218adcc1ae7464af098a8a59397e7531c0f7ec0bc",
       "native_verified_architectures": [
