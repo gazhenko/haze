@@ -2,7 +2,19 @@
 
 A first-person mystery on an island lost in the haze since 1956. You row in with a bundle of returned letters for Elias Vale, keeper of the Morrow Baths. The island has kept one rainy evening for forty-five years, and something beneath it has been keeping it for him. Walk the island region by region, finish the rounds Elias could never finish, and let each evening end. There is no combat, timer or fail state.
 
-[Download Haze 0.26.0](https://github.com/gazhenko/haze/releases/tag/v0.26.0) · [Easy installers](#easy-installers) · [Install with your agent](#give-this-to-your-agent)
+[Download Haze 0.27.0](https://github.com/gazhenko/haze/releases/tag/v0.27.0) · [Easy installers](#easy-installers) · [Install with your agent](#give-this-to-your-agent)
+
+## New in 0.27.0: lamplight on the wet street, two storeys, the night-flowering tree
+
+At night in the rain each street lamp is drawn out across the wet setts in a long, broken streak toward you, glinting off the crown of every stone. The village's lit windows glow through net curtains, two of its houses stand two storeys high, the night-flowering tree on the mainland hill is broad and gnarled over the bench, and the woods at the Springs and on the summit are the countryside's dense-crowned, wind-shaped trees. The west cliffs are weathered grey down to a tide line of wet shingle, and the sea caves' mouth opens cleanly in the rock. In the Cure each room is lit by its gasolier, bright beneath it and falling away into the corners. In the Light's lamp room the great lens is clear prismatic glass and the flame glints in the glazing instead of flaring across it, and the rooms everywhere have smooth painted plaster walls and hanging paraffin lamps.
+
+The sea caves' chambers are hollowed and scalloped by the sea, people's faces carry their creases, field gateways hang five-bar gates between stone posts, the camera obscura's picture fills its table to the frame, and the foundry yard has sheerlegs over a new bell. The keepers' boathouse has its slip, and the Springs pump house its beam engine on cast plummer blocks. On an M1 Pro a frame in the village street takes 17 ms where it had taken 27. The release notes list more than two hundred changes.
+
+![The night-flowering tree over the bench on the mainland hill, on the last morning](images/the-night-flowering-tree.jpg)
+
+![The Cure's ballroom by gaslight, its furniture under dust sheets](images/the-ballroom-by-gaslight.jpg)
+
+![The great lens in the Light's lamp room](images/the-great-lens.jpg)
 
 ## New in 0.26.0: woods, fields, walls and the Springs' stream
 
@@ -117,7 +129,7 @@ Graphics settings run from **Steam Deck** through Low, Medium, High and Ultra to
 
 ## The island
 
-Haze 0.26.0 is the whole game. The bathhouse is Act I; beyond its north gate lie the Village, the Springs, the West Cliffs, the Cure, the Summit and the Light, and under the northern sea, the thing the islanders called the Guest. Each region begins in rain at dusk and turns to morning when its round is done. From the Springs on, figures of light replay the last evening, voiced and subtitled. There are two endings, one of them hidden. We estimate a first visit at six to nine hours with reading.
+Haze 0.27.0 is the whole game. The bathhouse is Act I; beyond its north gate lie the Village, the Springs, the West Cliffs, the Cure, the Summit and the Light, and under the northern sea, the thing the islanders called the Guest. Each region begins in rain at dusk and turns to morning when its round is done. From the Springs on, figures of light replay the last evening, voiced and subtitled. There are two endings, one of them hidden. We estimate a first visit at six to nine hours with reading.
 
 ![The causeway of bells to the lighthouse islet](images/causeway.jpg)
 
@@ -171,10 +183,10 @@ You do not need a coding agent, Unity, or a terminal. The installers include the
 
 | Computer | Installer filename | How to install |
 | --- | --- | --- |
-| Mac, Apple Silicon or Intel | [Download Mac installer](https://github.com/gazhenko/haze/releases/download/v0.26.0/Haze-v0.26.0-macOS-universal.dmg) | Open the disk image, drag **Haze** onto **Applications**, then open Haze from Applications. |
-| Windows 10/11, Intel/AMD 64-bit | [Download Windows installer](https://github.com/gazhenko/haze/releases/download/v0.26.0/Haze-v0.26.0-Windows-x64-Setup.exe) | Open Setup, choose **Next → Install → Finish**, then use the desktop or Start menu shortcut. No administrator password is needed. |
+| Mac, Apple Silicon or Intel | [Download Mac installer](https://github.com/gazhenko/haze/releases/download/v0.27.0/Haze-v0.27.0-macOS-universal.dmg) | Open the disk image, drag **Haze** onto **Applications**, then open Haze from Applications. |
+| Windows 10/11, Intel/AMD 64-bit | [Download Windows installer](https://github.com/gazhenko/haze/releases/download/v0.27.0/Haze-v0.27.0-Windows-x64-Setup.exe) | Open Setup, choose **Next → Install → Finish**, then use the desktop or Start menu shortcut. No administrator password is needed. |
 
-Each installer includes a **START HERE** guide. You can also [read the guide](https://github.com/gazhenko/haze/releases/download/v0.26.0/START-HERE.txt) before downloading. Portable archives and Linux downloads are available on the release page.
+Each installer includes a **START HERE** guide. You can also [read the guide](https://github.com/gazhenko/haze/releases/download/v0.27.0/START-HERE.txt) before downloading. Portable archives and Linux downloads are available on the release page.
 
 Quit the game before updating. Updates and removal keep your saved progress. On Windows, remove the game in **Settings → Apps**; on Mac, move Haze from Applications to the Trash.
 
@@ -186,9 +198,9 @@ Choose the archive for your computer under the GitHub release’s **Assets**. Ex
 
 | Computer | Download | Launch | Verification |
 | --- | --- | --- | --- |
-| Windows, Intel/AMD 64-bit | [Windows-x64.zip](https://github.com/gazhenko/haze/releases/download/v0.26.0/Haze-v0.26.0-Windows-x64.zip) | Open `Haze.exe` | Passes its checks under Proton on Linux; not yet run on a Windows PC |
-| Mac, Apple Silicon or Intel | [macOS-universal.zip](https://github.com/gazhenko/haze/releases/download/v0.26.0/Haze-v0.26.0-macOS-universal.zip) | Open `Haze.app` | Native walkthrough on Apple Silicon; Intel unverified |
-| Linux and Steam Deck, x64 | [Linux-x64.tar.gz](https://github.com/gazhenko/haze/releases/download/v0.26.0/Haze-v0.26.0-Linux-x64.tar.gz) | Run `./play.sh` | Native walkthrough on Omarchy with Vulkan |
+| Windows, Intel/AMD 64-bit | [Windows-x64.zip](https://github.com/gazhenko/haze/releases/download/v0.27.0/Haze-v0.27.0-Windows-x64.zip) | Open `Haze.exe` | Passes its checks under Proton on Linux; not yet run on a Windows PC |
+| Mac, Apple Silicon or Intel | [macOS-universal.zip](https://github.com/gazhenko/haze/releases/download/v0.27.0/Haze-v0.27.0-macOS-universal.zip) | Open `Haze.app` | Native walkthrough on Apple Silicon; Intel unverified |
+| Linux and Steam Deck, x64 | [Linux-x64.tar.gz](https://github.com/gazhenko/haze/releases/download/v0.27.0/Haze-v0.27.0-Linux-x64.tar.gz) | Run `./play.sh` | Native walkthrough on Omarchy with Vulkan |
 
 Use a keyboard and mouse, or a game controller (Xbox, PlayStation or Switch Pro). The Mac app uses Metal. Windows defaults to Direct3D 11. Linux defaults to Vulkan. These are desktop builds; ARM Windows/Linux and mobile devices are not included.
 
@@ -197,13 +209,13 @@ Use a keyboard and mouse, or a game controller (Xbox, PlayStation or Switch Pro)
 To have a coding agent such as Claude Code, Codex, or Cursor install Haze, paste this into it:
 
 ```text
-Install Haze 0.26.0 on this computer from its official GitHub release, then tell me how to start it.
+Install Haze 0.27.0 on this computer from its official GitHub release, then tell me how to start it.
 
-Release: https://github.com/gazhenko/haze/releases/tag/v0.26.0
-Download each file from https://github.com/gazhenko/haze/releases/download/v0.26.0/<file>
-  macOS, Apple Silicon or Intel  Haze-v0.26.0-macOS-universal.zip  extracts to Haze-macOS-universal/Haze.app
-  Windows 10/11, x64             Haze-v0.26.0-Windows-x64.zip      extracts to Haze-Windows-x64/Haze.exe
-  Linux, x64                     Haze-v0.26.0-Linux-x64.tar.gz     extracts to Haze-Linux-x64/play.sh
+Release: https://github.com/gazhenko/haze/releases/tag/v0.27.0
+Download each file from https://github.com/gazhenko/haze/releases/download/v0.27.0/<file>
+  macOS, Apple Silicon or Intel  Haze-v0.27.0-macOS-universal.zip  extracts to Haze-macOS-universal/Haze.app
+  Windows 10/11, x64             Haze-v0.27.0-Windows-x64.zip      extracts to Haze-Windows-x64/Haze.exe
+  Linux, x64                     Haze-v0.27.0-Linux-x64.tar.gz     extracts to Haze-Linux-x64/play.sh
   Checksums                      SHA256SUMS
 
 1. Detect the OS and CPU. If this computer is not one of the three platforms above (for example Windows or Linux on ARM), stop and tell me.
