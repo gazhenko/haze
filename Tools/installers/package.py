@@ -69,7 +69,7 @@ MAC (Apple Silicon or Intel)
 4. Eject the disk image in Finder. You can delete the downloaded .dmg file.
 
 If you already have the game, quit it before copying and choose Replace.
-This preview is ad-hoc signed, but not Apple-notarized. If macOS blocks it,
+The app is ad-hoc signed, but not Apple-notarized. If macOS blocks it,
 try opening the copy in Applications, then open System Settings > Privacy
 & Security, scroll to Security, and choose Open Anyway for {name}.
 Only approve the copy you downloaded from the official game release.
@@ -83,7 +83,7 @@ WINDOWS (Windows 10 or 11, Intel/AMD 64-bit)
 3. Choose Finish. Open the game's desktop shortcut, or find {name} in Start.
 4. You can delete the downloaded setup file after installing.
 
-This preview installer is unsigned. Windows may show an unfamiliar-app
+This installer is unsigned. Windows may show an unfamiliar-app
 warning. Check that the file came from the official game release before
 choosing More info > Run anyway, if that option is offered. If your computer
 blocks it completely, ask its administrator; do not disable its protection.
@@ -184,7 +184,7 @@ color:#20252a;line-height:1.6}}h1{{line-height:1.2}}a{{color:#165da8}}</style>
 <p>Updating? Quit the game first, then choose <strong>Replace</strong>. Your saves are kept.</p>
 <p>If macOS blocks the game, try opening the copy in Applications, then go to
 <strong>System Settings → Privacy &amp; Security → Open Anyway</strong> for {title}.
-This preview has not been notarized by Apple.
+The app has not been notarized by Apple.
 <a href="https://support.apple.com/102445">Apple's first-launch instructions</a>.</p>
 <p>You can delete the downloaded disk image after installing. To remove the game,
 move it from Applications to the Trash. Your saved progress is kept.</p>
