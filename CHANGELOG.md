@@ -2,6 +2,10 @@
 
 What each release added, newest first. Every release's notes, downloads and validation are on the [releases page](https://github.com/gazhenko/haze/releases).
 
+## 1.0.1: a subtitles switch and brighter rooms
+
+Settings and the pause menu have a Subtitles switch beside Sound, kept between visits. The lamplit rooms are brighter once your eyes have adjusted, so the archive, the mill and the pump house read; the Heart keeps its light as it was. With a controller, up and down now move to the next row and left and right along it, so down from Sound no longer skips to Back.
+
 ## 1.0.0: the finished game
 
 A pause now holds the island: its clock, its figures and its sounds wait while the score and the menus carry on. Long pages read further down with the right stick or the arrow keys, as with the mouse wheel. Voices have their own volume, and mute is kept between visits. The tower's four dials on the summit are lit through the evening and put out by morning, the Heart's floor and levers are remade, and the bench in the epilogue has cast-iron ends. The landing turns to morning once the visit is over. The credits name the game's sources and can be passed over once they have begun. Counts, times and names agree between the pages, the voices and the rooms.
