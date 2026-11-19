@@ -2,6 +2,10 @@
 
 What each release added, newest first. Every release's notes, downloads and validation are on the [releases page](https://github.com/gazhenko/haze/releases).
 
+## 1.0.3: dark windows on the Cure's shut storeys
+
+Coming up the drive in the fog, the few open windows of the Cure's closed upper floors had stood out pale, lighter than the wall round them, as if lit. Their glass is now dark below the drawn blinds, as an empty room's would be.
+
 ## 1.0.2: even hair on the figures of light, and no glare in the ending
 
 The remembered islanders' hair glows as one soft mass, as their faces do; it had shown dark blocks among bright strands. In the ending's first view a low sun no longer lies on the wet sand at your feet as a blown-out white disc: the drained floor keeps its mirror sheen of the sky, with only a soft brightening toward the sun.

@@ -1,13 +1,13 @@
 {
-  "version": "v1.0.2",
+  "version": "v1.0.3",
   "scene_source_sha256": "14deb4b3dcc4995699fcfa4f542a167a427878b0085800f55c24d17ef3201558",
   "artifacts": [
     {
-      "file": "Haze-v1.0.2-macOS-universal.zip",
-      "bytes": 1742517089,
-      "sha256": "e7bcfb612b607465a7f0cee5a0452d66ab7151d41bddf17edd9ef26c3cb494b4",
+      "file": "Haze-v1.0.3-macOS-universal.zip",
+      "bytes": 1742514648,
+      "sha256": "1a4d75f4650ad931a8252fb8292575d20e183717e5c634a4157e5fa3bf1548d7",
       "verification": "native-walkthrough-passed",
-      "player_sha256": "b8fd1b2067c694c02b75da9a80675fe78b8616e02e980c382b5913b8ccce63af",
+      "player_sha256": "71349db365d47d06b79e59a413e6f513b4632b6561831848239b6031b3b3565d",
       "native_verified_architectures": [
         "arm64"
       ],
@@ -19,9 +19,9 @@
       "notarized": false
     },
     {
-      "file": "Haze-v1.0.2-Windows-x64.zip",
-      "bytes": 1741091015,
-      "sha256": "ea1879388789590bdd035224964d72c5db1a44954b1179b6029e57bf4b2ac586",
+      "file": "Haze-v1.0.3-Windows-x64.zip",
+      "bytes": 1741090822,
+      "sha256": "84665ffdf86e187589d28b1cbcf0fe131af889111e4b16c21106529538f2e287",
       "verification": "runtime-unverified",
       "player_sha256": "4c9dd8b513f3d5cbb03500871ee3c18e9e9bc497c23df7956242b40bf0efe2d9",
       "native_verified_architectures": [],
@@ -40,9 +40,9 @@
       }
     },
     {
-      "file": "Haze-v1.0.2-Linux-x64.tar.gz",
-      "bytes": 1740203079,
-      "sha256": "7209832b7ce4f65f21e5f3bf7fb0aa87639f75c942816c90245a3e5529130ab7",
+      "file": "Haze-v1.0.3-Linux-x64.tar.gz",
+      "bytes": 1740209256,
+      "sha256": "05ebcbb4423d552d3b12cbe7b118cb9c9acc230546f5fbbe75a60b0d4d22277a",
       "verification": "native-walkthrough-passed",
       "player_sha256": "8027f7d1f9ae7dacfc826fb218adcc1ae7464af098a8a59397e7531c0f7ec0bc",
       "native_verified_architectures": [
