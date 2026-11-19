@@ -2,6 +2,10 @@
 
 What each release added, newest first. Every release's notes, downloads and validation are on the [releases page](https://github.com/gazhenko/haze/releases).
 
+## 1.0.4: the landing cove's boulders and jetty
+
+The boulders round the landing below the Baths weather to a grey a few shades paler than the cliffs they came from; in the morning sun they had stood on the green slopes nearly black. The joints between the jetty's setts are packed with grit nearly to the top, where they had lain deep in dark soil, so the lines between the stones are lighter.
+
 ## 1.0.3: dark windows on the Cure's shut storeys
 
 Coming up the drive in the fog, the few open windows of the Cure's closed upper floors had stood out pale, lighter than the wall round them, as if lit. Their glass is now dark below the drawn blinds, as an empty room's would be.
