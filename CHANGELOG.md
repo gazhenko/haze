@@ -2,6 +2,10 @@
 
 What each release added, newest first. Every release's notes, downloads and validation are on the [releases page](https://github.com/gazhenko/haze/releases).
 
+## 1.0.5: wires that stay drawn at a distance
+
+The wire between the summit's poles is drawn no thinner than about a pixel and a half across, however far off, so it reads as a fine dark line against the sky; drawn at its own width, it had thinned into faint, broken dashes towards the far poles. The village's clothes lines are drawn the same way.
+
 ## 1.0.4: the landing cove's boulders and jetty
 
 The boulders round the landing below the Baths weather to a grey a few shades paler than the cliffs they came from; in the morning sun they had stood on the green slopes nearly black. The joints between the jetty's setts are packed with grit nearly to the top, where they had lain deep in dark soil, so the lines between the stones are lighter.
