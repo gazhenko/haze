@@ -2,6 +2,10 @@
 
 What each release added, newest first. Every release's notes, downloads and validation are on the [releases page](https://github.com/gazhenko/haze/releases).
 
+## 1.0.2: even hair on the figures of light, and no glare in the ending
+
+The remembered islanders' hair glows as one soft mass, as their faces do; it had shown dark blocks among bright strands. In the ending's first view a low sun no longer lies on the wet sand at your feet as a blown-out white disc: the drained floor keeps its mirror sheen of the sky, with only a soft brightening toward the sun.
+
 ## 1.0.1: a subtitles switch and brighter rooms
 
 Settings and the pause menu have a Subtitles switch beside Sound, kept between visits. The lamplit rooms are brighter once your eyes have adjusted, so the archive, the mill and the pump house read; the Heart keeps its light as it was. With a controller, up and down now move to the next row and left and right along it, so down from Sound no longer skips to Back.
