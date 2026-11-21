@@ -1,6 +1,6 @@
 # Haze
 
-A first-person mystery on an island lost in the haze since 1956. You row in with a bundle of returned letters for Elias Vale, keeper of the Morrow Baths. The island has kept one rainy September evening for forty-five years, and something beneath it has been keeping it for him. Walk the island region by region, finish the rounds Elias could never finish, and let each evening end. There is no combat, timer or fail state.
+A first-person mystery on an island lost in the haze since 1956. You row in with a bundle of returned letters for Elias Vale, keeper of the Morrow Baths. The island has kept one rainy September evening for forty-five years. Walk the island region by region, finish the rounds Elias could never finish, and let each evening end. There is no combat, timer or fail state.
 
 [Download Haze 1.1.0](https://github.com/gazhenko/haze/releases/tag/v1.1.0) · [Easy installers](#easy-installers) · [Install with your agent](#give-this-to-your-agent) · [Version history](CHANGELOG.md)
 
@@ -8,7 +8,7 @@ A first-person mystery on an island lost in the haze since 1956. You row in with
 
 ## The game
 
-Haze is played in eight acts and an epilogue. The bathhouse is Act I; beyond its north gate lie the Village, the Springs, the West Cliffs, the Cure, the Summit and the Light, and under the northern sea, the thing the islanders called the Guest. Each region begins in rain at dusk and turns to morning when its round is done. From the Springs on, figures of light replay the last evening, voiced and subtitled. There are two endings, one of them hidden. We estimate a first visit at six to nine hours with reading.
+Haze is played in eight acts and an epilogue. The bathhouse is Act I; beyond its north gate lie the Village, the Springs, the West Cliffs, the Cure, the Summit, the Light and what waits beyond it. Each region begins in rain at dusk and turns to morning when its round is done. From the Springs on, figures of light replay the last evening, voiced and subtitled. There are two endings. We estimate a first visit at six to nine hours with reading.
 
 ![The road north from the bathhouse gate, in the morning after Act I](images/haze-road-north.jpg)
 
@@ -18,7 +18,7 @@ Haze is played in eight acts and an epilogue. The bathhouse is Act I; beyond its
 
 ![The road to the summit, the clock tower's dials lit at 7.42](images/haze-summit-tower.jpg)
 
-![The Heart, under the northern sea](images/haze-the-heart.jpg)
+![Beneath the northern sea](images/haze-the-heart.jpg)
 
 ![Morning on the mainland hill: the bench under the night-flowering tree](images/haze-bench-under-the-tree.jpg)
 
