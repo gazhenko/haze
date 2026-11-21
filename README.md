@@ -2,7 +2,7 @@
 
 A first-person mystery on an island lost in the haze since 1956. You row in with a bundle of returned letters for Elias Vale, keeper of the Morrow Baths. The island has kept one rainy September evening for forty-five years. Walk the island region by region, finish the rounds Elias could never finish, and let each evening end. There is no combat, timer or fail state.
 
-[Download Haze 1.1.0](https://github.com/gazhenko/haze/releases/tag/v1.1.0) · [Easy installers](#easy-installers) · [Install with your agent](#give-this-to-your-agent) · [Version history](CHANGELOG.md)
+[Download Haze 1.1.1](https://github.com/gazhenko/haze/releases/tag/v1.1.1) · [Easy installers](#easy-installers) · [Install with your agent](#give-this-to-your-agent) · [Version history](CHANGELOG.md)
 
 ![The Village's street in the rain at dusk, its lamps lit](images/haze-village-evening.jpg)
 
@@ -32,10 +32,10 @@ You do not need a coding agent, Unity, or a terminal. The installers include the
 
 | Computer | Installer | How to install |
 | --- | --- | --- |
-| Mac, Apple Silicon or Intel | [Download Mac installer](https://github.com/gazhenko/haze/releases/download/v1.1.0/Haze-v1.1.0-macOS-universal.dmg) | Open the disk image, drag **Haze** onto **Applications**, then open Haze from Applications. |
-| Windows 10/11, Intel/AMD 64-bit | [Download Windows installer](https://github.com/gazhenko/haze/releases/download/v1.1.0/Haze-v1.1.0-Windows-x64-Setup.exe) | Open Setup, choose **Next → Install → Finish**, then use the desktop or Start menu shortcut. No administrator password is needed. |
+| Mac, Apple Silicon or Intel | [Download Mac installer](https://github.com/gazhenko/haze/releases/download/v1.1.1/Haze-v1.1.1-macOS-universal.dmg) | Open the disk image, drag **Haze** onto **Applications**, then open Haze from Applications. |
+| Windows 10/11, Intel/AMD 64-bit | [Download Windows installer](https://github.com/gazhenko/haze/releases/download/v1.1.1/Haze-v1.1.1-Windows-x64-Setup.exe) | Open Setup, choose **Next → Install → Finish**, then use the desktop or Start menu shortcut. No administrator password is needed. |
 
-Each installer includes a **START HERE** guide. You can also [read the guide](https://github.com/gazhenko/haze/releases/download/v1.1.0/START-HERE.txt) before downloading. Portable archives and the Linux and Steam Deck download are on the release page.
+Each installer includes a **START HERE** guide. You can also [read the guide](https://github.com/gazhenko/haze/releases/download/v1.1.1/START-HERE.txt) before downloading. Portable archives and the Linux and Steam Deck download are on the release page.
 
 Quit the game before updating. Updates and removal keep your saved progress. On Windows, remove the game in **Settings → Apps**; on Mac, move Haze from Applications to the Trash.
 
@@ -47,9 +47,9 @@ Choose the archive for your computer under the GitHub release’s **Assets**. Ex
 
 | Computer | Download | Launch | Verification |
 | --- | --- | --- | --- |
-| Windows, Intel/AMD 64-bit | [Windows-x64.zip](https://github.com/gazhenko/haze/releases/download/v1.1.0/Haze-v1.1.0-Windows-x64.zip) | Open `Haze.exe` | Passes its checks under Proton on Linux; not yet run on a Windows PC |
-| Mac, Apple Silicon or Intel | [macOS-universal.zip](https://github.com/gazhenko/haze/releases/download/v1.1.0/Haze-v1.1.0-macOS-universal.zip) | Open `Haze.app` | Whole-island walkthrough on Apple Silicon; Intel unverified |
-| Linux and Steam Deck, x64 | [Linux-x64.tar.gz](https://github.com/gazhenko/haze/releases/download/v1.1.0/Haze-v1.1.0-Linux-x64.tar.gz) | Run `./play.sh` | Whole-island walkthrough on Linux with Vulkan |
+| Windows, Intel/AMD 64-bit | [Windows-x64.zip](https://github.com/gazhenko/haze/releases/download/v1.1.1/Haze-v1.1.1-Windows-x64.zip) | Open `Haze.exe` | Passes its checks under Proton on Linux; not yet run on a Windows PC |
+| Mac, Apple Silicon or Intel | [macOS-universal.zip](https://github.com/gazhenko/haze/releases/download/v1.1.1/Haze-v1.1.1-macOS-universal.zip) | Open `Haze.app` | Whole-island walkthrough on Apple Silicon; Intel unverified |
+| Linux and Steam Deck, x64 | [Linux-x64.tar.gz](https://github.com/gazhenko/haze/releases/download/v1.1.1/Haze-v1.1.1-Linux-x64.tar.gz) | Run `./play.sh` | Whole-island walkthrough on Linux with Vulkan |
 
 Use a keyboard and mouse, or a game controller (Xbox, PlayStation or Switch Pro, and the Steam Deck's own controls). The Mac app uses Metal. Windows defaults to Direct3D 11. Linux defaults to Vulkan. These are desktop builds; ARM Windows/Linux and mobile devices are not included.
 
@@ -58,13 +58,13 @@ Use a keyboard and mouse, or a game controller (Xbox, PlayStation or Switch Pro,
 To have a coding agent such as Claude Code, Codex, or Cursor install Haze, paste this into it:
 
 ```text
-Install Haze 1.1.0 on this computer from its official GitHub release, then tell me how to start it.
+Install Haze 1.1.1 on this computer from its official GitHub release, then tell me how to start it.
 
-Release: https://github.com/gazhenko/haze/releases/tag/v1.1.0
-Download each file from https://github.com/gazhenko/haze/releases/download/v1.1.0/<file>
-  macOS, Apple Silicon or Intel  Haze-v1.1.0-macOS-universal.zip  extracts to Haze-macOS-universal/Haze.app
-  Windows 10/11, x64             Haze-v1.1.0-Windows-x64.zip      extracts to Haze-Windows-x64/Haze.exe
-  Linux, x64                     Haze-v1.1.0-Linux-x64.tar.gz     extracts to Haze-Linux-x64/play.sh
+Release: https://github.com/gazhenko/haze/releases/tag/v1.1.1
+Download each file from https://github.com/gazhenko/haze/releases/download/v1.1.1/<file>
+  macOS, Apple Silicon or Intel  Haze-v1.1.1-macOS-universal.zip  extracts to Haze-macOS-universal/Haze.app
+  Windows 10/11, x64             Haze-v1.1.1-Windows-x64.zip      extracts to Haze-Windows-x64/Haze.exe
+  Linux, x64                     Haze-v1.1.1-Linux-x64.tar.gz     extracts to Haze-Linux-x64/play.sh
   Checksums                      SHA256SUMS
 
 1. Detect the OS and CPU. If this computer is not one of the three platforms above (for example Windows or Linux on ARM), stop and tell me.

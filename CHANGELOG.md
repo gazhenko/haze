@@ -2,6 +2,10 @@
 
 What each release added, newest first. Every release's notes, downloads and validation are on the [releases page](https://github.com/gazhenko/haze/releases).
 
+## 1.1.1: letters, echoes and credits that agree
+
+A continuity and wording pass. The letters agree with one another and with what the pools show. Nine echo lines are retimed and re-voiced. The seed tins, the schoolhouse clock and the chalk lines match their pages. The credits name R. Pask and the source of the founder's portrait.
+
 ## 1.1.0: puzzles to work out, a second ending, and new people
 
 Letters and notices no longer state the next step, and wrong settings describe what you see rather than name the fault. The bell song is reversed at the winches, and at the Heart it gains a sixth note you must find. The early acts keep their secrets for the Heart to reveal. Keeping the Guest's gift is now a true ending. The echoes wear period clothes and hold real gestures. The epilogue is seen from behind the bench under Mara's night-flowering tree. Night exteriors are lighter, and each correspondent writes in their own hand.
