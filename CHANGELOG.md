@@ -2,6 +2,10 @@
 
 What each release added, newest first. Every release's notes, downloads and validation are on the [releases page](https://github.com/gazhenko/haze/releases).
 
+## 1.1.2: the crossing, the landing and the Baths' evening
+
+Fixes from a playthrough. The sea stays out of the rowing boat. Reaching the jetty fades to black and back. The cliff stair is two metres wide and clear of the rock. The gate across the bath hall is gone. The Baths stay in the held evening after the last valve, so the walk down to the village no longer jumps from morning to night.
+
 ## 1.1.1: letters, echoes and credits that agree
 
 A continuity and wording pass. The letters agree with one another and with what the pools show. Nine echo lines are retimed and re-voiced. The seed tins, the schoolhouse clock and the chalk lines match their pages. The credits name R. Pask and the source of the founder's portrait.
