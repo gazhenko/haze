@@ -2,6 +2,10 @@
 
 What each release added, newest first. Every release's notes, downloads and validation are on the [releases page](https://github.com/gazhenko/haze/releases).
 
+## 1.1.3: one held evening, and a faster bath hall
+
+Morrow stays in its held evening until the end of Act VIII: a finished round stops the rain over its district and leaves a lit, local change there, and morning comes only over Elias's rowboat. The cove entrance to the Baths no longer jumps in light or fog. The bath hall draws fewer shadows and runs faster.
+
 ## 1.1.2: the crossing, the landing and the Baths' evening
 
 Fixes from a playthrough. The sea stays out of the rowing boat. Reaching the jetty fades to black and back. The cliff stair is two metres wide and clear of the rock. The gate across the bath hall is gone. The Baths stay in the held evening after the last valve, so the walk down to the village no longer jumps from morning to night.
